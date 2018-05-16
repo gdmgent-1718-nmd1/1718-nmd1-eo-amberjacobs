@@ -3,7 +3,7 @@ body {
     font-weight: 400;
     letter-spacing: -.022em;
     font-synthesis: none;
-    -moz-font-feature-settings: 'kern';
+   /* -moz-font-feature-settings: 'kern';*/
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #333;
@@ -15,4 +15,23 @@ img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
 
-/* Voeg jouw css hieraan toe */
+/* concurentieanalyse */
+.voordelen {
+    color:green;
+}
+.nadelen {
+    color: red;
+}
+
+.website {
+   font-style: italic;
+}
+
+/* scenario */
+.scenario
+{
+    font-style: italic;
+    font-size: 20px;
+    color: gray;
+ }
+

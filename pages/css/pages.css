@@ -36,3 +36,35 @@ img {
     color: gray;
  }
 
+ /* digital styleguide */
+
+ .styldeguide1
+ {
+    font-family: 'quisand';
+    font-style: bold;
+    font-size: 60px;
+    color:#43BAC0;
+ }
+
+ .styldeguide2
+ {
+    font-family: 'Arial Narrow';
+    font-style: bold;
+    font-size: 40px;
+    color:#43BAC0;
+ }
+
+.roos
+{
+           color:#DE6398;
+ }
+
+.blauw
+ {
+            color:#36BAC1;
+  }
+
+.grijs
+  {
+             color:#49494A;
+   }

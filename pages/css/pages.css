@@ -38,21 +38,25 @@ img {
 
  /* digital styleguide */
 
- .styldeguide1
- {
-    font-family: 'quisand';
-    font-style: bold;
-    font-size: 60px;
-    color:#43BAC0;
- }
+ /* algemene opmaak */
 
- .styldeguide2
+ .styldeguide1
  {
     font-family: 'Arial Narrow';
     font-style: bold;
     font-size: 40px;
     color:#43BAC0;
  }
+
+ .styldeguide2
+ {
+    font-family: 'Arial';
+    font-style: bold;
+    font-size: 25px;
+    color:#49494A;
+ }
+
+ /* logo */
 
 .roos
 {
@@ -68,3 +72,38 @@ img {
   {
              color:#49494A;
    }
+
+/* kleuren */
+
+.tekstroos
+{
+    color:#DE6398;
+    font-style: bold;
+}
+
+.kleurroos
+{
+    color:#DE6398;
+}
+
+.tekstblauw
+{
+    color:#36BAC1;
+    font-style: bold;
+}
+
+.kleurblauw
+{
+    color:#36BAC1;
+}
+
+.tekstgrijs
+{
+    color:#49494A;
+    font-style: bold;
+}
+
+.kleurgrijs
+{
+    color:#49494A;
+}

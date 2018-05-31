@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <title>Digital Styleguide - Eindopdracht NMD-I - Amber Jacobs</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" href="css/pages.css">
@@ -42,36 +43,77 @@
             <li class="kleurgrijs">hsl(240, 1%, 29%)</li>
         </ul>
 <br>
-        <h2 class="styldeguide2">links</h2>
+        <h2 class="styldeguide2">Typografie</h2> 
+        <p class="Titels"> Titels</p>
+        <p class="fonttekst">Font: Quisand bold, Grootte: 32pt, Kleur: #49494A</p>
+        <br>
+        <p class="Tussentitels"> Tussentitels</p>
+        <p class="fonttekst">Font: Quisand bold, Grootte: 25pt, Kleur: #36BAC1</p>
+        <br>
+        <p class="Tekst"> Tekst</p>
+        <p class="fonttekst">Font: Arial Narrow, Grootte: 21pt, Kleur: #49494A</p>
+        <br>
+        <p class="Line-up"> Line-up</p>
+        <p class="fonttekst">Font: Arial Narrow, Grootte: 16pt, Kleur: #49494A en #DE6398</p>
+        <br>
+        <p class="Bijschrift"> Bijschriften</p>
+        <p class="fonttekst">Font: Arial Narrow, Grootte: 8pt, Kleur: #49494A</p>
+        <br>
+        
 <br>
 
-        <h2 class="styldeguide2">Knoppen</h2>
+        <h2 class="styldeguide2">Navigatiemenu</h2>
 
-    <div class="knoppen">
-        <div class="menu">
-            <button class="Home">home</button>
-            <button class="Tickets">tickets</button>
-            <button class="LineUp">Line up</button>
-            <button class="Info">Info</button>
+            <div class="menu">
+            <a href=https://www.gdm.gent/1718-nmd1/opdracht/ target="blank"> <p class="menuknop"> Info </p>
+            </a> 
+            
+            <a href=https://www.gdm.gent/1718-nmd1/opdracht/ target="blank"> <p class="menuknop"> Line-up </p>
+            </a>
+
+            <a href=https://www.gdm.gent/1718-nmd1/opdracht/ target="blank"> <p class="menuknop"> Tickets </p>
+            </a>
+
+            <a href=https://www.gdm.gent/1718-nmd1/opdracht/ target="blank"> <p class="menuknop"> Contact </p>
+            </a>
+        </div>
+<br>
+<h2 class="styldeguide2">knoppen en links</h2>
+        <div class="socialemedia">
+
+            <a href="https://www.facebook.com/" target="blank">
+                <img src="./images/FB.png" alt="Facebook" height="50px" width="50px">
+              </a>
+
+              <a href="https://www.snapchat.com/" target="blank">
+                <img src="./images/snapchat.png" alt="Snapchat" height="50px" width="50px">
+              </a>
+
+              <a href="https://www.instagram.com/" target="blank">
+                <img src="./images/insta.png" alt="Instagram" height="50px" width="50px">
+              </a>
+
+            <a href="https://www.youtube.com/" target="blank">
+                <img src="./images/youtube.png" alt="Youtube" height="50px" width="50px">
+              </a>
+            
         </div>
 
-        <div class="socialemedia">
-            <button class="facebook">
-                <img class="facebooklogo" src="./images/FB.png">
-            </button>
+<br>
+        <h2 class="styldeguide2">Contact formulier</h2>
 
-            <button class="snapchat">
-                <img class="snapchatlogo" src="./images/snapchat.png">
-            </button>
-            
-            <button class="instagram">
-                <img class="instagramlogo" src="./images/insta.png">
-            </button>
+          <form action="/action_page.php">
 
-            <button class="youtube">
-                <img class="youtubelogo" src="./images/youtube.png">
-            </button>
-            
+            <input type="text" id="naam" name="firstname" placeholder="Naam:">
+        
+            <input type="text" id="e-mail" name="lastname" placeholder="E-mail:">
+    
+            <input type="text" id="onderwerp" name="lastname" placeholder="Onderwerp:">
+        
+            <textarea id="subject" name="bericht" placeholder="Bericht:" style="height:100px"></textarea>
+        
+            <input type="submit" value="Verzenden">
+          </form>
         </div>
 
 

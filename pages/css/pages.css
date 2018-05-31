@@ -97,6 +97,8 @@ img {
     color:#36BAC1;
 }
 
+/* Tekst*/
+
 .tekstgrijs
 {
     color:#49494A;
@@ -107,3 +109,83 @@ img {
 {
     color:#49494A;
 }
+
+.Titels
+{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32pt;
+    color:#49494A;
+
+}
+
+.Tussentitels
+{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25pt;
+    color:#36BAC1;
+
+}
+
+.Tekst
+{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 21pt;
+    color:#49494A;
+
+}
+
+.Line-up
+{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 16pt;
+    color:#DE6398;
+
+}
+
+.Bijschrift
+{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 8pt;
+    color:#49494A;
+
+}
+
+/* knoppen en links */
+
+a{
+    color: #36BAC1;
+    font-size: 35px; 
+    text-decoration: none;
+   
+}
+
+a:hover {
+    color: gray;
+}
+
+/* contact formulier */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #36BAC1;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #36BAC1;
+}
+
+input[type=submit] {
+    background-color:white;
+    color: #36BAC1;
+    padding: 12px 20px;
+    border: 3px solid  #36BAC1;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+

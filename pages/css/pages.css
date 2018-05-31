@@ -152,7 +152,7 @@ img {
 
 /* knoppen en links */
 
-a{
+.menuknop{
     color: #36BAC1;
     font-size: 35px; 
     text-decoration: none;
@@ -161,12 +161,16 @@ a{
 
 a:hover {
     color: gray;
+    text-decoration: line;
 }
-
+a{
+    
+    text-decoration: none;
+}
 /* contact formulier */
 
 input[type=text], select, textarea {
-    width: 100%;
+    width: 50%;
     padding: 12px;
     border: 1px solid #36BAC1;
     border-radius: 4px;

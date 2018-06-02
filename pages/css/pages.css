@@ -47,10 +47,9 @@ img {
     color:#43BAC0;
  }
 
- .styldeguide2{
+ a:name{
     font-family: 'Arial';
-    font-style: bold;
-    font-size: 25px;
+    font-size: 20px;
     color:#49494A;
     text-decoration-line:underline;
     text-decoration-color:#43BAC0;

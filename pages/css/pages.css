@@ -40,60 +40,58 @@ img {
 
  /* algemene opmaak */
 
- .styldeguide1
- {
+ .styldeguide1{
     font-family: 'Arial Narrow';
     font-style: bold;
     font-size: 40px;
     color:#43BAC0;
  }
 
- .styldeguide2
- {
+ .styldeguide2{
     font-family: 'Arial';
     font-style: bold;
     font-size: 25px;
     color:#49494A;
+    text-decoration-line:underline;
+    text-decoration-color:#43BAC0;
+    text-decoration-style: dotted;
  }
+
+ .onderverdeling{
+    font-size: 20px;
+}
 
  /* logo */
 
-.roos
-{
+.roos{
            color:#DE6398;
  }
 
-.blauw
- {
+.blauw{
             color:#36BAC1;
   }
 
-.grijs
-  {
+.grijs{
              color:#49494A;
    }
 
 /* kleuren */
 
-.tekstroos
-{
+.tekstroos{
     color:#DE6398;
     font-style: bold;
 }
 
-.kleurroos
-{
+.kleurroos{
     color:#DE6398;
 }
 
-.tekstblauw
-{
+.tekstblauw{
     color:#36BAC1;
     font-style: bold;
 }
 
-.kleurblauw
-{
+.kleurblauw{
     color:#36BAC1;
 }
 

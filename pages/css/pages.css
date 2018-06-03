@@ -156,7 +156,6 @@ a.een {
 /*navigatiemenu*/
 
 .navbar {
-    /*overflow: hidden;*/
     background-color: white;
     font-family: 'Arial Narrow', Arial, sans-serif;
 }
@@ -164,9 +163,10 @@ a.een {
 .navbar a.twee {
     float: left;
     font-size: 25px;
+    font-weight: bold;
     color:#36BAC1;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 25px;
     text-decoration: none;
 }
 
@@ -176,45 +176,73 @@ a.een {
 }
 
 .dropdown .dropbtn {
-    font-size: 20px;    
+    font-size: 25px;
+    font-weight: bold;    
     border: none;
     outline: none;
     color:#36BAC1;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
+    padding: 20px 25px;
+    text-align: center;
+    margin:0;
 }
 
-.navbar a.een:hover, .dropdown:hover .dropbtn {
-    background-color: none;
+.navbar a.twee:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(169, 169, 170, 0.831);
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: white;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
 }
 
-.dropdown-content a.twee {
+.dropdown-content a.zes {
     float: none;
-    color: black;
-    padding: 12px 16px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #36BAC1;
+    padding: 20px 25px;
     text-decoration: none;
-    display: block;
+    display:block;
     text-align: left;
 }
 
-.dropdown-content a.twee:hover {
-    background-color: #ddd;
+.dropdown-content a.zes:hover {
+    background-color:rgb(225, 140, 177);
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+/*zoek functie*/
+
+.topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 15px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: white;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+    .search-container input[type=text] {
+      border: 1px solid#36BAC1;  
+    }
+
 
 /* social media */
 
@@ -250,6 +278,8 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
+
+
 
 
 
